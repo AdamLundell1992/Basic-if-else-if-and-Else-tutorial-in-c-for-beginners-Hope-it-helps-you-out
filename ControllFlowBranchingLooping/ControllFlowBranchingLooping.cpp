@@ -7,9 +7,11 @@
 int main()
 {
     int myAge = 27;
-    std::cout << "This is a simple program using if and else and elif feel fre to clone and learn the basic logic in if statments" << std::endl;
+   
     while(myAge = true) {
         system("CLS");
+        std::cout << "This is a simple program using if and else and elif feel fre to clone and learn the basic logic in if statments" << std::endl;
+        std::cout  << std::endl;
         std::cout << "Guess my age" << std::endl;
         std::cin >> myAge;
         if (myAge <= 26) { // LES THAN 26==PRINT TTHIS
